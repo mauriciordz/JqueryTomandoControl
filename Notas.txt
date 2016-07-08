@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $("strong").css({"color":"green"});
+});
+
+
+Pruebas para cmabiar imagen en páginas..
+$("#homeIndexBody").find("#logo").find("img")
+[<img alt=​"White Frontier Brewery" src=​"/​static/​img/​whitefrontier.png">​]
+$("#homeIndexBody").find("#logo").find("img").attr("src", "http://fc04.deviantart.net/fs71/f/2009/361/b/c/Vegeta_by_aznfanaticwarrior.png")
+[<img alt=​"White Frontier Brewery" src=​"http:​/​/​fc04.deviantart.net/​fs71/​f/​2009/​361/​b/​c/​Vegeta_by_aznfanaticwarrior.png">​]
